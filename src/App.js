@@ -18,7 +18,7 @@ const App  = () => {
         setMovies(data.Search);
     }
     useEffect(() => {
-        searchMovies('spiderman');
+        searchMovies('');
 }, []);
     return (
         <div className="app">
